@@ -1,0 +1,94 @@
+/* General Mobile Styles */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-photo {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .profile-photo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .header-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn-resume {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+    /* Responsive Styles for Smaller Devices */
+@media (max-width: 992px) {
+    /* Adjust Columns to Stack Vertically */
+    #skills .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+    /* Single Column Layout for Very Small Screens */
+    #skills .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* Adjust Section Padding for Smaller Screens */
+    #skills {
+        padding: 40px 15px;
+    }
+
+    /* Smaller Font Sizes for Section Titles */
+    #skills .section-title h3 {
+        font-size: 2rem;
+    }
+
+    #skills .section-title p {
+        font-size: 1rem;
+    }
+
+    #skills .skills-section h4 {
+        font-size: 1.5rem;
+    }
+
+    #skills .skills-card h5 {
+        font-size: 1.3rem;
+    }
+
+    #skills .skills-card p {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+/* Small Devices */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 15px 5px;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+
+    section h2 {
+        font-size: 1.3rem;
+    }
+
+    #contact p {
+        font-size: 1rem;
+    }
+}
